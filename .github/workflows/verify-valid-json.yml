@@ -41,5 +41,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: /internal/policy-id-schema.json
+          INPUT_SCHEMA: /internal/schema.json
           INPUT_JSONS: ${{ steps.chagedFiles.outputs.FILES_LIST }}
