@@ -5,4 +5,6 @@ Set a daily service to pull down the latest file.
 ## Example cronjob
 1) sudo su
 2) crontab -e
-3) add "0 */8 * * * su -s /bin/sh nobody -c 'cd /path/youre/using/exchange-stake-keys && /usr/lib/git-core/git pull -q origin main'"
+3) add "0 */8 * * * su -s /bin/sh yourlogonID -c 'cd /path/youre/using/exchange-stake-keys && /usr/lib/git-core/git pull -q origin main'"
+
+Above job runs every 8 hours
