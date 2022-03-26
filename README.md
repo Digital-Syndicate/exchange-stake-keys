@@ -30,3 +30,5 @@ def your_mint_action_def():
 
 # Adding to this repo
 Edit the exchange-stake-keys.json file and add known keys.  The Repo will do a basic json lint check, but please use jsonlint.com to first verify you are saving in a proper json format.
+
+Also, please add examples to this Readme if you use other programming languages.  We still need Haskell, PHP, and Powershell
