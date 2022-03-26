@@ -15,7 +15,7 @@ ignored_utxos = []
 
 import json
 with open('./exchange-stake-keys/exchange_stakekeys.json', 'r') as f:
-    exchange_wallets = json.loads(f.read())
+    exchange_wallets = f.read()
 
 if sender_addr in exchange_wallets:
     triage_utxo(tx_hash)
